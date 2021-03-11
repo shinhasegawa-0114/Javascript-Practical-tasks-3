@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.target-area .hidden {
+  display: none
+}
+.target-area{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px;
+    grid-template-rows:400px 400px;
+    gap: 10px;
+}
+.keyWord{
+    font-size: 10px;
+}
+.ajust{
+    width:200px;
+    height: 150px;
+}
+#search-text{
+    width: 300px;
+    height: 30px;
+}
+img{
+    width:100%;
+}

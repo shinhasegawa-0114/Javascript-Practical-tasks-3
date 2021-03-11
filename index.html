@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>リアルタイムフィルター</title>
+    </head>
+
+    <body>
+      <div class="real-time-filter">
+         <h2 class="title">リアルタイムフィルター</h2>
+         <h5 class="attention">入力した文字を含まない要素は非表示となります</h5>
+         <div class="wrapper">
+            <div class="search-area">
+              <form>
+                <input type="text" id="search-text" placeholder="検索ワードを入力">
+              </form>
+              <div class="search-result">
+                <div class="search-result__hit-num"></div>
+                <div id="search-result__list"></div>
+              </div>
+            </div>
+        
+            <div class="target-area">
+              <div class="element">
+                <img src="./image/sigure.jpeg">
+                <p>キーワード</p>
+                <p class="keyWord">駆逐艦　白露型　時雨改二　1/8スケール</p>
+              </div>
+              <div class="element">
+                <img src="./image/yudachi.jpeg">
+                 <p>キーワード</p>
+                <p class="keyWord">駆逐艦　白露型　夕立改二　1/8スケール</p>
+              </div>
+              <div class="element">
+                <img src="./image/ikazuchi.jpeg">
+                 <p>キーワード</p>
+                <p class="keyWord">駆逐艦　暁型　雷　1/8スケール</p>
+              </div>
+              <div class="element">
+                <img src="./image/inazuma.jpeg">
+                 <p>キーワード</p>
+                <p class="keyWord">駆逐艦　暁型　電　1/8スケール</p>
+              </div>
+              <div class="element">
+                <img src="./image/s-sigure.jpeg">
+                 <p>キーワード</p>
+                <p class="keyWord">駆逐艦　白露型　時雨改二　ねんどろいど</p>
+              </div>
+              <div class="element">
+                <img src="./image/s-yudachi.jpeg">
+                 <p>キーワード</p>
+                <p class="keyWord">駆逐艦　白露型　夕立改二　ねんどろいど</p>
+              </div>
+              <div class="element">
+                <img src="./image/s-simakaze.jpeg">
+                 <p>キーワード</p>
+                <p class="keyWord">駆逐艦　島風型　島風　ねんどろいど</p>
+              </div>
+              <div class="element">
+                <img src="./image/s-yamato.jpeg">
+                 <p>キーワード</p>
+                <p class="keyWord">戦艦　大和型　大和　ねんどろいど</p>
+              </div>
+            </div>
+         </div>
+      </div>
+      
+      
+        <script src="main.js"></script>
+    </body>
